@@ -5,8 +5,8 @@ const db = require("./db");
 
 const server = createServer();
 
-// TODO use express middleware to handke cookies (JWT)
-// TODO use express middleware to populate current users
+// TODO Use express middlware to handle cookies (JWT)
+// TODO Use express middlware to populate current user
 
 server.start(
   {
